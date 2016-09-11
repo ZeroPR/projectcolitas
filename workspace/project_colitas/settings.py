@@ -25,9 +25,9 @@ SECRET_KEY = '$seqj#bex6#z=i0g+go-up7*_ez04%a6-rc%)%zgi+i$wl(3z4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.colitasporlavida.com', 'colitasporlavida.com']
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 # Application definition
 
