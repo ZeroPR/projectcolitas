@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <form method="POST" class="form-signin">
+            {% csrf_token %}
+            <div class="page-header col-md-12 col-sm-12">
+              <h1 class="text-center">Bienvenido a Colitas Por La Vida</h1></h1>
+            </div>
+<p></p>
+            
+            <div class="col-md-offset-4 col-md-4 col-sm-4">
+                <h1 class="text-center">Por Favor Inicie Seccion <h1>
+                <input type="text" name="username" class='form-control'/>
+                <p></p>
+                <p></p>
+                <input type="password" name="password" class='form-control'/>  
+                <p></p>
+                <p></p>
+                <button class="btn btn-success btn-lg " type="submit">Log In</button>
+            </div>
+             
+        </form>
+    </body>  
+</html>
